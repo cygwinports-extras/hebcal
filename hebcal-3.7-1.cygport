@@ -1,0 +1,5 @@
+DESCRIPTION="Perpetual Jewish calendar for console"
+HOMEPAGE="http://www.sadinoff.com/hebcal"
+SRC_URI="mirror://sourceforge/${PN}/${P}.tar.gz"
+
+DIFF_EXCLUDES="package.m4"

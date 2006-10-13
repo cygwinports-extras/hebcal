@@ -1,0 +1,81 @@
+hebcal
+-------------------------------------------
+A perpetual Hebrew calendar with Gregorian date translation and 
+listing of parshas, holidays, candle lighting times, and more.
+
+Runtime requirements:
+  cygwin-1.5.21-2
+
+Build requirements:
+  cygwin-1.5.21-2
+  autoconf2.5-2.59-2
+  automake1.9-1.9.6-1
+  binutils-20060709-1
+  cygport-0.2.5-1
+  gawk-3.1.5-2
+  gcc-core-3.4.4-1
+  make-3.81-1
+  sed-4.1.5-1
+
+Canonical homepage:
+  http://www.sadinoff.com/hebcal
+
+Canonical download:
+  http://prdownloads.sourceforge.net/hebcal/
+  
+-------------------------------------------
+
+Build instructions:
+  unpack hebcal-3.7-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./hebcal-3.7-X.cygport all
+
+This will create:
+  /usr/src/hebcal-3.7-X-src.tar.bz2
+  /usr/src/hebcal-3.7-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/hebcal.sh
+  /usr/bin/hebcal.exe
+  /usr/share/doc/Cygwin/hebcal-3.7.README
+  /usr/share/doc/hebcal-3.7/AUTHORS
+  /usr/share/doc/hebcal-3.7/COPYING
+  /usr/share/doc/hebcal-3.7/ChangeLog
+  /usr/share/doc/hebcal-3.7/HACKING
+  /usr/share/doc/hebcal-3.7/INSTALL
+  /usr/share/doc/hebcal-3.7/NEWS
+  /usr/share/doc/hebcal-3.7/README
+  /usr/share/doc/hebcal-3.7/TODO
+  /usr/share/info/hebcal.info.gz
+  /usr/share/man/man1/hebcal.1.gz
+
+------------------
+
+Port Notes:
+
+----- version 3.7-1 -----
+Version bump; built with cygport.
+
+----- version 3.5-1 -----
+Version bump.
+
+----- version 3.4.1-1 -----
+Version bump.
+
+----- version 3.4-1 -----
+Version bump.
+
+----- version 3.4b3-1 -----
+New upstream release.
+
+----- version 3.3b10-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

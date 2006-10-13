@@ -1,0 +1,9 @@
+category: Judaism
+requires: cygwin
+sdesc: "Console Hebrew Calendar"
+ldesc: "A perpetual Hebrew calendar with Gregorian date translation and
+listing of parshas, holidays, candle lighting times, and more."
+
+
+
+
