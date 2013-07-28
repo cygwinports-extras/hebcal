@@ -1,0 +1,15 @@
+NAME="hebcal"
+VERSION=3.11
+RELEASE=1
+CATEGORY="Religion"
+SUMMARY="Console Hebrew Calendar"
+DESCRIPTION="A perpetual Hebrew calendar with Gregorian date translation and
+listing of parshas, holidays, candle lighting times, and more."
+DESCRIPTION="Perpetual Jewish calendar for console"
+HOMEPAGE="http://www.sadinoff.com/hebcal"
+SRC_URI="mirror://sourceforge/hebcal/${NAME}-${VERSION}.tar.gz"
+
+DIFF_EXCLUDES="package.m4"
+
+
+
